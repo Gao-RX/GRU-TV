@@ -1,0 +1,22 @@
+epoch_max: 200
+break_epoch: 3
+input_size: 33
+hidden_size: 128
+feature_size: 2
+is_cuda: True
+print_freq: 1
+val_freq: 1
+init_lr: 0.003
+lr_decay_freq: 3
+is_shuffle: True
+num_works: 0
+num_class: 1
+seed: 42
+data_dir: /media/liu/Data/DataSet/Physionet2012/Sampled
+sample: 50
+desc: GRUT-AE-hid=128
+trick: 
+gamma_x: False
+gamma_h: False
+load_old: False
+**************************************************2022-08-16 07:02:27.868564**************************************************
